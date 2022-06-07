@@ -1,0 +1,31 @@
+.store {
+  display: flex;
+  justify-content: space-evenly;
+}
+.wrapper {
+  max-width: 1370px;
+  margin: 0 auto;
+}
+
+img {
+  position: absolute;
+}
+.description {
+  color: black;
+  position: relative;
+  background-color: white;
+
+  border-radius: 10%;
+  width: 70%;
+  margin-top: 350px;
+  z-index: 10;
+  transform: translateX(-0%);
+  bottom: -10%;
+}
+p {
+  padding: 10px;
+}
+
+/*.card {
+  display: flex;
+}*/
